@@ -1,0 +1,60 @@
+#imageContainer{
+    width: 100vw; /* Ekranın genişliği kadar */
+    height: 100vh; /* Ekranın yüksekliği kadar */
+    background-image: url("src/assets/wall.jpeg"); /* Resmi arka plan olarak ekle */
+    background-size: fixed; /* Resmi ekran boyutuna uyacak şekilde kapla */
+    background-position: center; /* Resmi ekranın ortasına hizala */
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #imageContainer1{
+    width:100vw; /* Ekranın genişliği kadar */
+    height: 100vh; /* Ekranın yüksekliği kadar */
+    background-image: url("src/assets/login.jpg"); /* Resmi arka plan olarak ekle */
+    background-size: cover; /* Resmi ekran boyutuna uyacak şekilde kapla */
+    background-position: center; /* Resmi ekranın ortasına hizala */
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  /* Giriş butonu */
+.btn-success {
+  background-color: #38c172;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 10px; /* Köşeleri yuvarlat */
+  transition: background-color 0.3s, transform 0.3s; /* Geçiş efektleri */
+  cursor: pointer;
+}
+
+/* Giriş butonu üzerine gelindiğinde */
+.btn-success:hover {
+  background-color: #2d995b;
+  transform: scale(1.05); /* Büyüme animasyonu */
+}
+
+/* Geri Dön butonu */
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px; /* Köşeleri yuvarlat */
+  transition: background-color 0.3s, transform 0.3s; /* Geçiş efektleri */
+  cursor: pointer;
+}
+
+/* Geri Dön butonu üzerine gelindiğinde */
+.btn-secondary:hover {
+  background-color: #5a6268;
+  transform: scale(1.05); /* Büyüme animasyonu */
+}
